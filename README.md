@@ -1,46 +1,41 @@
-````md
 # 🧠 ParkinGuide
 
 ### Longitudinal Functional Intelligence for Parkinson’s Disease
 
-**ParkinGuide** is an original **digital health product** designed for **longitudinal functional intelligence**, contextual monitoring, and personalized functional risk modelling in Parkinson’s disease.
+**ParkinGuide** is an original **digital health product** designed for **longitudinal functional intelligence**, contextual monitoring, and explainable functional risk analysis in Parkinson’s disease.
 
-Unlike traditional healthcare systems centered on isolated clinical snapshots, ParkinGuide focuses on what happens **between consultations**, transforming real-life behavioral, motor, emotional, and cognitive signals into structured longitudinal insights.
+Unlike traditional healthcare systems centered on isolated clinical snapshots, ParkinGuide focuses on what happens **between consultations**, transforming real-life motor, emotional, social and cognitive signals into structured longitudinal insights.
 
 It is **not a diagnostic system**.
 
-Its purpose is to support more informed, personalized, and context-aware neurological follow-up through explainable data interpretation and functional risk analysis.
+It does not recommend treatments, adjust medication, or replace healthcare professionals.
+
+Its purpose is to support **better-informed neurological follow-up** through structured longitudinal observation and explainable functional interpretation.
 
 ---
 
-## 🌍 Why this matters
+# 🌍 Why this matters
 
-Parkinson’s progression is deeply heterogeneous.
+Parkinson’s progression is highly heterogeneous.
 
 Two patients with the same diagnosis may evolve in completely different ways.
 
-The same intervention may:
-
-- improve one patient
-- worsen another
-- have no measurable effect on another
-
-That means:
-
-> **population averages are often insufficient for functional follow-up.**
+Population averages are often insufficient to understand functional deterioration.
 
 ParkinGuide follows a **precision longitudinal health** approach:
 
 ```text
 Each patient is interpreted against:
 their own baseline
-their own historical trajectory
+their own trajectory
 their own functional context
-````
+```
 
-Not against averages.
+Not against population averages.
 
-This enables truly personalized longitudinal care.
+This enables:
+
+> **personalized functional interpretation over time**
 
 ---
 
@@ -62,11 +57,11 @@ Population-level contextual monitoring.
 
 Includes:
 
-* functional trends
-* contextual signals
-* cognitive activity
-* wearable-ready variables
-* recent clinical activity
+- functional trends
+- contextual signals
+- cognitive activity
+- wearable-ready variables
+- recent clinical activity
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
@@ -94,7 +89,7 @@ Higher-risk progression profile showing accumulated contextual deterioration.
 
 Integrated mini-games for repeated functional observation.
 
-Used to track cognitive speed, motor precision and executive activation.
+Used to monitor cognitive speed, motor precision and executive activation.
 
 ![Games Module](docs/screenshots/juegos.png)
 
@@ -120,12 +115,13 @@ Structured longitudinal PDF reports designed to improve neurologist-patient cons
 
 ParkinGuide is built to:
 
-* record real-world contextual variables
-* detect functional deviations over time
-* identify deterioration patterns
-* improve continuity between consultations
-* generate structured clinical summaries
-* support explainable AI in personalized neurological care
+- record real-world contextual variables
+- detect functional deviations over time
+- identify deterioration patterns
+- reduce information loss between consultations
+- improve continuity of care
+- generate structured clinical summaries
+- support explainable AI in personalized neurological care
 
 ---
 
@@ -155,8 +151,8 @@ Example:
 
 may represent:
 
-* normal stability for one patient
-* significant decline for another
+- normal stability for one patient
+- significant decline for another
 
 This enables:
 
@@ -168,9 +164,9 @@ This enables:
 
 ParkinGuide supports:
 
-* patient self-report
-* caregiver observation
-* combined reporting
+- patient self-report
+- caregiver observation
+- combined reporting
 
 This allows comparison between:
 
@@ -184,7 +180,7 @@ These discrepancies may become clinically meaningful contextual signals.
 
 ---
 
-## 3️⃣ Population-Trained Functional Intelligence
+## 3️⃣ Synthetic Longitudinal Intelligence Layer
 
 Synthetic longitudinal dataset:
 
@@ -197,92 +193,73 @@ Synthetic longitudinal dataset:
 
 Used to model:
 
-* nonlinear deterioration patterns
-* variable interactions
-* contextual instability
-* habit-response dynamics
+- nonlinear deterioration patterns
+- variable interactions
+- contextual instability
+- habit-response dynamics
 
 This layer enriches patient-level baseline modelling.
 
 ---
 
-# 🩺 Neurology Continuity Layer
+# 📊 Functional Domains
 
-Designed to improve continuity between consultations.
-
-Tracks:
-
-* last neurology visit
-* next scheduled visit
-* neurologist reference
-* review frequency
-
-This creates:
-
-> structured longitudinal continuity instead of fragmented episodic care
+ParkinGuide monitors **21 weekly functional variables** across four complementary domains.
 
 ---
 
-# 📊 Functional Variables Monitored
+## Motor Domain
 
-## Sleep
+Tracks physical and motor performance:
 
-* sleep hours
-* sleep quality
-* awakenings
-* sleep efficiency
+- tremor
+- rigidity
+- bradykinesia
+- freezing
+- falls
+- balance confidence
+- steps
+- training hours
 
-## Physical Activity
+---
 
-* daily steps
-* training hours
-* active minutes
-* falls
+## Emotional-Functional Domain
 
-## Motor Symptoms
+Tracks emotional regulation and functional self-perception:
 
-* tremor
-* rigidity
-* bradykinesia
-* freezing
-* balance confidence
+- stress
+- mood
+- motivation
+- autonomy
+- mental fatigue
 
-## Emotional State
+---
 
-* mood
-* stress
-* motivation
-* mental fatigue
+## Social-Contextual Domain
 
-## Social Context
+Tracks environmental and contextual variables:
 
-* interactions
-* isolation
-* caregiver perception
+- sleep hours
+- sleep quality
+- night awakenings
+- social interactions
+- social isolation
+- hydration
+- constipation
 
-## Nutrition
+---
 
-* hydration
-* appetite
-* constipation
-* protein timing
+## Cognitive-Motor Performance Domain
 
-## Wearable-Ready Variables
+Measured through integrated mini-games:
 
-Prepared for future synchronization with:
+- verbal fluency
+- reaction time
+- memory
+- coordination
+- executive activation
 
-* Apple Watch
-* Garmin
-* Fitbit
-* Samsung Watch
-
-Future integrations:
-
-* HRV
-* resting heart rate
-* gait speed
-* active minutes
-* sleep efficiency
+These allow repeated observation of subtle functional changes over time.
 
 ---
 
@@ -290,19 +267,19 @@ Future integrations:
 
 Integrated assessments:
 
-* Visual Memory
-* Reaction Time
-* Manual Coordination
-* Verbal Fluency
-* Number Sequence
+- Visual Memory
+- Reaction Time
+- Manual Coordination
+- Verbal Fluency
+- Number Sequence
 
 Used to monitor:
 
-* executive function
-* cognitive speed
-* motor precision
-* memory evolution
-* repeated functional patterns
+- executive function
+- cognitive speed
+- motor precision
+- memory evolution
+- repeated functional patterns
 
 ---
 
@@ -332,10 +309,10 @@ ContextInsight
 
 Properties:
 
-* transparent
-* explainable
-* auditable
-* non-diagnostic
+- transparent
+- explainable
+- auditable
+- non-diagnostic
 
 ---
 
@@ -355,11 +332,11 @@ functional_risk_score (0–100)
 
 Why Random Forest:
 
-* nonlinear modeling
-* robust with mixed variables
-* stable for medium datasets
-* interpretable feature importance
-* handles interaction effects well
+- nonlinear modeling
+- robust with mixed variables
+- stable for medium datasets
+- interpretable feature importance
+- handles interaction effects well
 
 ---
 
@@ -382,9 +359,9 @@ Top predictors:
 7. Social isolation
 8. Mental fatigue
 
-This means the model is already learning:
+This shows the model is already learning:
 
-> **what tends to drive functional deterioration**
+> **which variables tend to drive functional deterioration**
 
 ---
 
@@ -408,11 +385,11 @@ Neurology consultation
 
 Outputs:
 
-* contextual summary
-* symptom evolution
-* functional risk score
-* cognitive history
-* consultation-ready reports
+- contextual summary
+- symptom evolution
+- functional risk score
+- cognitive history
+- consultation-ready reports
 
 ---
 
@@ -442,18 +419,18 @@ Clinical Report
 
 Built with:
 
-* pseudonymized IDs
-* no real health identifiers
-* explainable AI layers
-* transparent logic
-* responsible non-diagnostic positioning
+- pseudonymized IDs
+- no real health identifiers
+- explainable AI layers
+- transparent logic
+- responsible non-diagnostic positioning
 
 Core principles:
 
-* safety
-* explainability
-* responsibility
-* clinical usefulness
+- safety
+- explainability
+- responsibility
+- clinical usefulness
 
 ---
 
@@ -461,34 +438,34 @@ Core principles:
 
 ## Backend
 
-* Python
-* Django
+- Python
+- Django
 
 ## Database
 
-* SQLite
-* PostgreSQL-ready architecture
+- SQLite
+- PostgreSQL-ready architecture
 
 ## Frontend
 
-* HTML
-* CSS
-* JavaScript
-* Bootstrap
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
 ## Visualization
 
-* Chart.js
+- Chart.js
 
 ## AI / Machine Learning
 
-* Pandas
-* NumPy
-* Scikit-learn
+- Pandas
+- NumPy
+- Scikit-learn
 
 ## Reporting
 
-* ReportLab
+- ReportLab
 
 ---
 
@@ -496,42 +473,42 @@ Core principles:
 
 ## Product
 
-* [x] Longitudinal patient profiles
-* [x] Weekly contextual records
-* [x] Cognitive-motor tracking
-* [x] Functional dashboard
-* [x] Neurology continuity layer
-* [x] Clinical PDF reports
+- [x] Longitudinal patient profiles
+- [x] Weekly contextual records
+- [x] Cognitive-motor tracking
+- [x] Functional dashboard
+- [x] Clinical PDF reports
 
 ## AI
 
-* [x] Synthetic dataset generation
-* [x] Functional risk engineering
-* [x] Random Forest model
-* [x] Real-time prediction
-* [x] Context insight generation
-* [x] Longitudinal risk visualization
+- [x] Synthetic dataset generation
+- [x] Functional risk engineering
+- [x] Random Forest model
+- [x] Real-time prediction
+- [x] Context insight generation
+- [x] Longitudinal risk visualization
 
 ## Next Roadmap
 
-* [ ] Alert engine
-* [ ] Wearable synchronization
-* [ ] Per-patient explainability
-* [ ] AI-generated consultation summaries
-* [ ] Habit-response correlation engine
+- [ ] Alert engine
+- [ ] Wearable synchronization
+- [ ] Per-patient explainability
+- [ ] AI-generated consultation summaries
+- [ ] Habit-response correlation engine
 
 ---
 
 # 💡 Value Proposition
 
-ParkinGuide does not try to predict Parkinson’s disease.
+ParkinGuide does not aim to diagnose disease.
 
 Its value is more clinically meaningful:
 
-* understand how a patient is evolving
-* identify what may be influencing deterioration
-* detect which variables matter most
-* improve the quality of clinical conversations
+- understand how a patient is evolving
+- identify what may be influencing deterioration
+- detect which variables matter most
+- reduce information loss between consultations
+- improve the quality of clinical conversations
 
 That makes it:
 
@@ -561,11 +538,11 @@ Developed within:
 
 Focus areas:
 
-* Applied AI
-* Product thinking
-* Explainable systems
-* Precision health
-* Longitudinal analytics
+- Applied AI
+- Product thinking
+- Explainable systems
+- Precision health
+- Longitudinal analytics
 
 ---
 
@@ -576,6 +553,3 @@ ParkinGuide is an original proprietary digital health framework currently under 
 Its conceptual architecture, longitudinal modelling methodology, contextual intelligence system and functional risk logic are original work by the author.
 
 © 2026 Beatriz Lamiquiz. All rights reserved.
-
-```
-```
